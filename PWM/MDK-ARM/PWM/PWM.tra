@@ -1,0 +1,38 @@
+*** Creating Trace Output File 'PWM\PWM.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"pwm\stm32f4xx_hal_msp.o"'
+### List of Objects: adding '"pwm\main.o"'
+### List of Objects: adding '"pwm\stm32f4xx_it.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_tim.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_rcc.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_pwr_ex.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_flash_ex.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_gpio.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_tim_ex.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_flash.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_dma.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_pwr.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_flash_ramfunc.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_dma_ex.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_rcc_ex.o"'
+### List of Objects: adding '"pwm\stm32f4xx_hal_cortex.o"'
+### List of Objects: adding '"pwm\system_stm32f4xx.o"'
+### List of Objects: adding '"pwm\startup_stm32f407xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "pwm\stm32f4xx_hal_msp.o" "pwm\main.o" "pwm\stm32f4xx_it.o" "pwm\stm32f4xx_hal_tim.o" "pwm\stm32f4xx_hal_rcc.o" "pwm\stm32f4xx_hal.o" "pwm\stm32f4xx_hal_pwr_ex.o" "pwm\stm32f4xx_hal_flash_ex.o" "pwm\stm32f4xx_hal_gpio.o" "pwm\stm32f4xx_hal_tim_ex.o" "pwm\stm32f4xx_hal_flash.o" "pwm\stm32f4xx_hal_dma.o" "pwm\stm32f4xx_hal_pwr.o" "pwm\stm32f4xx_hal_flash_ramfunc.o" "pwm\stm32f4xx_hal_dma_ex.o" "pwm\stm32f4xx_hal_rcc_ex.o" "pwm\stm32f4xx_hal_cortex.o" "pwm\system_stm32f4xx.o" "pwm\startup_stm32f407xx.o" 
+--library_type=microlib --strict --scatter "PWM\PWM.sct" 
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "PWM.map" -o PWM\PWM.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'PWM\PWM.axf'
+### ADS-LD Command File: 'PWM\PWM.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'PWM\PWM.lnp', Handle=0x000004A8
+### Writing '.lnp' file
+### ADS-LD Command file 'PWM\PWM.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

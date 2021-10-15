@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\stm32 project\PWM\MDK-ARM\PWM.uvproj
+Project File Date:  10/28/2016
+
+<h2>Output:</h2>
+compiling main.c...
+../Src/main.c(96): warning: C4017W: i may be used before being set
+../Src/main.c - 0 Error(s), 1 Warning(s).
+compiling main.c...
+../Src/main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+../Src/main.c - 0 Error(s), 0 Warning(s).
