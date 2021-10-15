@@ -88,7 +88,7 @@ HAL_TIM_OC_MspInit(&htim4);
 	HAL_TIM_OC_Start(&htim4,HAL_TIM_ACTIVE_CHANNEL_1);
 	HAL_TIM_PWM_Start(&htim4,HAL_TIM_ACTIVE_CHANNEL_1);
   /* USER CODE END 2 */
-
+// add comment
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
