@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211204 23:28:56.312" rpa="false" schemaversion="2">
+<suite id="s1" name="ILYES" source="C:\Users\ASUS\eclipse-workspace\ILYES">
+<suite id="s1-s1" name="Test" source="C:\Users\ASUS\eclipse-workspace\ILYES\test.robot">
+<test id="s1-s1-t1" name="first test">
+<kw name="Catenate" library="BuiltIn">
+<var>${c}</var>
+<arg>${a}</arg>
+<arg>${b}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<msg timestamp="20211204 23:28:56.440" level="INFO">${c} = hellohello ilyes</msg>
+<status status="PASS" starttime="20211204 23:28:56.439" endtime="20211204 23:28:56.440"/>
+</kw>
+<kw name="Get Substring" library="String">
+<var>${d}</var>
+<arg>${c}</arg>
+<arg>1</arg>
+<arg>7</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<msg timestamp="20211204 23:28:56.442" level="INFO">${d} = ellohe</msg>
+<status status="PASS" starttime="20211204 23:28:56.441" endtime="20211204 23:28:56.442"/>
+</kw>
+<status status="PASS" starttime="20211204 23:28:56.437" endtime="20211204 23:28:56.443"/>
+</test>
+<status status="PASS" starttime="20211204 23:28:56.413" endtime="20211204 23:28:56.445"/>
+</suite>
+<status status="PASS" starttime="20211204 23:28:56.376" endtime="20211204 23:28:56.447"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="ILYES">ILYES</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test">ILYES.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
